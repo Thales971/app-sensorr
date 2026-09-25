@@ -36,46 +36,46 @@ export default function TelaSobre() {
             </View>
         </ScrollView>
     );
-};
+}
 
 const styles = StyleSheet.create({
-  container: {
-    padding: 16,
-  },
-  card: {
-    backgroundColor: '#FFFFFF',
-    borderWidth: 1,
-    borderColor: '#E5E7EB',
-    borderRadius: 8,
-    padding: 16,
-    marginBottom: 12,
-  },
-  titulo: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#111827',
-    marginBottom: 10,
-  },
-  linha: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    paddingVertical: 8,
-    borderBottomWidth: 1,
-    borderBottomColor: '#F3F4F6',
-  },
-  rotulo: {
-    fontSize: 13,
-    color: '#6B7280',
-    fontWeight: '600',
-  },
-  valor: {
-    fontSize: 13,
-    color: '#111827',
-    fontWeight: 'bold',
-  },
-  texto: {
-    fontSize: 13,
-    color: '#4B5563',
-    lineHeight: 22,
-  },
+    container: {
+        padding: 16,
+    },
+    card: {
+        backgroundColor: '#FFFFFF',
+        borderWidth: 1,
+        borderColor: '#E5E7EB',
+        borderRadius: 8,
+        padding: 16,
+        marginBottom: 12,
+    },
+    titulo: {
+        fontSize: 16,
+        fontWeight: 'bold',
+        color: '#111827',
+        marginBottom: 10,
+    },
+    linha: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        paddingVertical: 8,
+        borderBottomWidth: 1,
+        borderBottomColor: '#F3F4F6',
+    },
+    rotulo: {
+        fontSize: 13,
+        color: '#6B7280',
+        fontWeight: '600',
+    },
+    valor: {
+        fontSize: 13,
+        color: '#111827',
+        fontWeight: 'bold',
+    },
+    texto: {
+        fontSize: 13,
+        color: '#4B5563',
+        lineHeight: 22,
+    },
 });

@@ -39,7 +39,7 @@ export default function App() {
                 {abaAtual === 'inicio' && (
                     <TelaInicio onNavegarMedidor={() => setAbaAtual('nivel')} />
                 )}
-                 {abaAtual === 'nivel' && (
+                {abaAtual === 'nivel' && (
                     <TelaMedidor onSalvar={adicionarMedicao} />
                 )}
                 {abaAtual === 'historico' && (
